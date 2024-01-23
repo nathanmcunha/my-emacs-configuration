@@ -308,4 +308,3 @@ This is just an example of how to create a simple function in Emacs.  Use this f
 	  which-key-allow-imprecise-window-fit t
 	  which-key-separator " → " ))
 #+end_src
-:%s/foo/bar/g
