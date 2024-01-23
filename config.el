@@ -1,8 +1,8 @@
-(add-to-list 'load-path ("~/.config/emacs/scripts/")
+(add-to-list 'load-path "~/.config/emacs/scripts/")
 
 (require 'elpaca-setup)
-(require 'buffer-move)
-(require 'app-launcher)
+;;(require 'buffer-move)
+;;(require 'app-launcher)
 
 ;; Expands to: (elpaca evil (use-package evil :demand t))
 (use-package evil
@@ -258,7 +258,29 @@
       (ivy-set-display-transformer 'ivy-switch-buffer
                                    'ivy-rich-switch-buffer-transformer))
 
-(use-package java-mode)
+
+
+(global-set-key [escape] 'keyboard-escape-quit)
+
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1)
+  :config
+  (setq doom-modeline-height 35      ;; sets modeline height
+        doom-modeline-bar-width 5    ;; sets right bar width
+        doom-modeline-persp-name t   ;; adds perspective name to modeline
+        doom-modeline-persp-icon t)) ;; adds folder icon next to persp name
+
+(global-set-key [escape] 'keyboard-escape-quit)
+
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1)
+  :config
+  (setq doom-modeline-height 35      ;; sets modeline height
+        doom-modeline-bar-width 5    ;; sets right bar width
+        doom-modeline-persp-name t   ;; adds perspective name to modeline
+        doom-modeline-persp-icon t)) ;; adds folder icon next to persp name
 
 (use-package toc-org
     :commands toc-org-enable
