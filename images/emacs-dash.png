@@ -1,0 +1,441 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="ui-light-gray with-header with-top-bar " lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>04-launchers-dashboard-languages/images/emacs-dash.png · main · Derek Taylor / Configuring Emacs · GitLab</title>
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+window.gon={};gon.features={"highlightJsWorker":true,"explainCodeChat":false,"encodingLogsTree":false};gon.licensed_features={"remoteDevelopment":true};
+//]]>
+</script>
+
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+var gl = window.gl || {};
+gl.startup_calls = {"/dwt1/configuring-emacs/-/blob/main/04-launchers-dashboard-languages/images/emacs-dash.png?format=json\u0026viewer=rich":{}};
+gl.startup_graphql_calls = [{"query":"query getBlobInfo(\n  $projectPath: ID!\n  $filePath: String!\n  $ref: String!\n  $refType: RefType\n  $shouldFetchRawText: Boolean!\n) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      empty\n      blobs(paths: [$filePath], ref: $ref, refType: $refType) {\n        __typename\n        nodes {\n          __typename\n          id\n          webPath\n          name\n          size\n          rawSize\n          rawTextBlob @include(if: $shouldFetchRawText)\n          fileType\n          language\n          path\n          blamePath\n          editBlobPath\n          gitpodBlobUrl\n          ideEditPath\n          forkAndEditPath\n          ideForkAndEditPath\n          codeNavigationPath\n          projectBlobPathRoot\n          forkAndViewPath\n          environmentFormattedExternalUrl\n          environmentExternalUrlForRouteMap\n          canModifyBlob\n          canCurrentUserPushToBranch\n          archived\n          storedExternally\n          externalStorage\n          externalStorageUrl\n          rawPath\n          replacePath\n          pipelineEditorPath\n          simpleViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n          richViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n        }\n      }\n    }\n  }\n}\n","variables":{"projectPath":"dwt1/configuring-emacs","ref":"main","refType":"","filePath":"04-launchers-dashboard-languages/images/emacs-dash.png","shouldFetchRawText":false}}];
+
+if (gl.startup_calls && window.fetch) {
+  Object.keys(gl.startup_calls).forEach(apiCall => {
+   gl.startup_calls[apiCall] = {
+      fetchCall: fetch(apiCall, {
+        // Emulate XHR for Rails AJAX request checks
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        // fetch won’t send cookies in older browsers, unless you set the credentials init option.
+        // We set to `same-origin` which is default value in modern browsers.
+        // See https://github.com/whatwg/fetch/pull/585 for more information.
+        credentials: 'same-origin'
+      })
+    };
+  });
+}
+if (gl.startup_graphql_calls && window.fetch) {
+  const headers = {"X-CSRF-Token":"uEJQ9WrYOjthb4GtNks-O9rOqj_bw_dd4tECpuBcRGA65NPw44-DRdDg2x7dE1MAngwBdu8CfKMUpLWAjavaMg","x-gitlab-feature-category":"source_code_management"};
+  const url = `https://gitlab.com/api/graphql`
+
+  const opts = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...headers,
+    }
+  };
+
+  gl.startup_graphql_calls = gl.startup_graphql_calls.map(call => ({
+    ...call,
+    fetchCall: fetch(url, {
+      ...opts,
+      credentials: 'same-origin',
+      body: JSON.stringify(call)
+    })
+  }))
+}
+
+
+//]]>
+</script>
+
+<link rel="prefetch" href="/assets/webpack/monaco.60e6a5d6.chunk.js">
+
+<link rel="stylesheet" href="/assets/application-2c66e912360a710e1620b66b51c60e48724d0bb30e5fab1d1f866430000ee596.css" media="all" />
+<link rel="stylesheet" href="/assets/page_bundles/tree-a5089dc5ce426c5f11ae90f6dc4a5b0be7ec204192f87d6438b0500eaf370d7c.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/projects-cc9a44858264462e84f8adf7211e8b40d69959d1fac83e72332dbca14f05bb31.css" media="all" />
+<link rel="stylesheet" href="/assets/application_utilities-7d845f4a394be9a3b16452f25605ecbf38752a824377ee90bf852a010543df84.css" media="all" />
+
+
+<link rel="stylesheet" href="/assets/fonts-115c4704cb8c77e2fdf3fd0243eebf164e2e9b54bbab7bf6a4c14868b865ddf8.css" media="all" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-1b0806cb2775fab529e835804dfb351a11dd641f48d830a28b4b37882174cc0c.css" media="all" />
+
+<script src="/assets/webpack/runtime.1171a434.bundle.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/main.8a4f0c8a.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/tracker.44c78575.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/analytics.ae65830f.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+
+gl = window.gl || {};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-0-9","data":{"environment":"production","source":"gitlab-rails","plan":"free","extra":{},"user_id":null,"is_gitlab_team_member":null,"namespace_id":2952297,"project_id":46508259,"context_generated_at":"2024-01-23T14:32:18.768Z"}}
+gl.snowplowPseudonymizedPageUrl = "https://gitlab.com/namespace2952297/project46508259/-/blob/:repository_path";
+
+
+//]]>
+</script>
+<link rel="preload" href="/assets/application_utilities-7d845f4a394be9a3b16452f25605ecbf38752a824377ee90bf852a010543df84.css" as="style" type="text/css" nonce="CqTFKl3wWMuPlFj6Udytbw==">
+<link rel="preload" href="/assets/application-2c66e912360a710e1620b66b51c60e48724d0bb30e5fab1d1f866430000ee596.css" as="style" type="text/css" nonce="CqTFKl3wWMuPlFj6Udytbw==">
+<link rel="preload" href="/assets/highlight/themes/white-1b0806cb2775fab529e835804dfb351a11dd641f48d830a28b4b37882174cc0c.css" as="style" type="text/css" nonce="CqTFKl3wWMuPlFj6Udytbw==">
+<link crossorigin="" href="https://snowplow.trx.gitlab.net" rel="preconnect">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-1e0a5107ea3bbd4be93e8ad2c503467e43166cd37e4293570b490e0812ede98b.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-Italic-38eaf1a569a54ab28c58b92a4a8de3afb96b6ebc250cf372003a7b38151848cc.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-08d2c5e8ff8fd3d2d6ec55bc7713380f8981c35f9d2df14e12b835464d6e8f23.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-Italic-38e58d8df29485a20c550da1d0111e2c2169f6dcbcf894f2cd3afbdd97bcc588.woff2" rel="preload">
+<link rel="preload" href="/assets/fonts-115c4704cb8c77e2fdf3fd0243eebf164e2e9b54bbab7bf6a4c14868b865ddf8.css" as="style" type="text/css" nonce="CqTFKl3wWMuPlFj6Udytbw==">
+
+
+
+<script src="/assets/webpack/sentry.863c78d3.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+
+
+<script src="/assets/webpack/commons-pages.search.show-super_sidebar.bf9921cf.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/super_sidebar.e627175d.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.epic_boards-pages.groups.show-pages.gr-f850368f.d5527655.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.admin.runners.show-pages.clusters.agents.dashboard-pages.explore.catalog-pages.groups.-9e6a7e2f.9eaa870f.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.groups.security.policies.edit-pages.groups.security.policies.new-pages.projects.blob.s-b77fad0c.6afbfd3e.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.admin.subscriptions.show-pages.groups.security.policies.edit-pages.groups.security.pol-6bfecbfa.e6638ae1.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/108.a8eabc73.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.show-pages.projects.snippets.show-pages.projects.tre-c684fcf6.cf9692b1.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/128.240a232d.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.groups.show-pages.projects.blob.show-pages.projects.show-pages.projects.tree.show.a4c6895e.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.show-pages.projects.tree.show.11bde87f.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.tree.show-treeList.2f4ef1ee.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<script src="/assets/webpack/pages.projects.blob.show.566a78b0.chunk.js" defer="defer" nonce="5gm7/u5DYJ39UiJyV3Iwdg=="></script>
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="04-launchers-dashboard-languages/images/emacs-dash.png · main · Derek Taylor / Configuring Emacs · GitLab" property="og:title">
+<meta content="GitLab.com" property="og:description">
+<meta content="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/dwt1/configuring-emacs/-/blob/main/04-launchers-dashboard-languages/images/emacs-dash.png" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="04-launchers-dashboard-languages/images/emacs-dash.png · main · Derek Taylor / Configuring Emacs · GitLab" property="twitter:title">
+<meta content="GitLab.com" property="twitter:description">
+<meta content="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="_89QNSItb5TcdmjW6yyTLkopXvVfCdTMudmfsJszXk19adMwq3rW6m35MmUAdP4VDuv1vGvIXzJPrCiW9sTAHw" />
+<meta name="csp-nonce" content="5gm7/u5DYJ39UiJyV3Iwdg==" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="GitLab.com" name="description">
+<meta content="#ececef" name="theme-color">
+</head>
+
+<body class="tab-width-8 gl-browser-generic gl-platform-other  " data-find-file="/dwt1/configuring-emacs/-/find_file/main" data-namespace-id="2952297" data-page="projects:blob:show" data-page-type-id="main/04-launchers-dashboard-languages/images/emacs-dash.png" data-project="configuring-emacs" data-project-id="46508259">
+
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+
+<header class="header-logged-out" data-testid="navbar">
+<a class="gl-sr-only gl-accessibility" href="#content-body">Skip to content</a>
+<div class="container-fluid">
+<nav aria-label="Explore GitLab" class="header-logged-out-nav gl-display-flex gl-gap-3 gl-justify-content-space-between">
+<div class="header-logged-out-logo gl-display-flex gl-align-items-center gl-gap-3">
+<span class="gl-sr-only">GitLab</span>
+<a title="Homepage" id="logo" class="has-tooltip" aria-label="Homepage" data-track-label="main_navigation" data-track-action="click_gitlab_logo_link" data-track-property="navigation_top" href="/"><svg aria-hidden="true" role="img" class="tanuki-logo" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path class="tanuki-shape tanuki" d="m24.507 9.5-.034-.09L21.082.562a.896.896 0 0 0-1.694.091l-2.29 7.01H7.825L5.535.653a.898.898 0 0 0-1.694-.09L.451 9.411.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 2.56 1.935 1.554 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z"
+        fill="#E24329"/>
+  <path class="tanuki-shape right-cheek" d="m24.507 9.5-.034-.09a11.44 11.44 0 0 0-4.56 2.051l-7.447 5.632 4.742 3.584 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z"
+        fill="#FC6D26"/>
+  <path class="tanuki-shape chin" d="m7.707 20.677 2.56 1.935 1.555 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935-4.743-3.584-4.755 3.584Z"
+        fill="#FCA326"/>
+  <path class="tanuki-shape left-cheek" d="M5.01 11.461a11.43 11.43 0 0 0-4.56-2.05L.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 4.745-3.584-7.444-5.632Z"
+        fill="#FC6D26"/>
+</svg>
+
+</a><div class="gl-display-flex gl-align-items-center">
+</div>
+</div>
+<ul class="gl-list-style-none gl-p-0 gl-m-0 gl-display-flex gl-gap-3 gl-align-items-center gl-flex-grow-1">
+<li class="header-logged-out-nav-item header-logged-out-dropdown gl-md-display-none">
+<button class="header-logged-out-toggle" data-toggle="dropdown" type="button">
+<span class="gl-sr-only">
+Menu
+</span>
+<svg class="s16" data-testid="hamburger-icon"><use href="/assets/icons-1563760c6022424ca5187159258484be0c106b044e5e5a1b4f0be7a10cd6c90f.svg#hamburger"></use></svg>
+</button>
+<div class="dropdown-menu">
+<ul>
+<li>
+<a href="https://about.gitlab.com/why-gitlab">Why GitLab
+</a></li>
+<li>
+<a href="https://about.gitlab.com/pricing">Pricing
+</a></li>
+<li>
+<a href="https://about.gitlab.com/sales">Contact Sales
+</a></li>
+<li>
+<a href="/explore">Explore</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-logged-out-nav-item gl-display-none gl-md-display-inline-block">
+<a href="https://about.gitlab.com/why-gitlab">Why GitLab
+</a></li>
+<li class="header-logged-out-nav-item gl-display-none gl-md-display-inline-block">
+<a href="https://about.gitlab.com/pricing">Pricing
+</a></li>
+<li class="header-logged-out-nav-item gl-display-none gl-md-display-inline-block">
+<a href="https://about.gitlab.com/sales">Contact Sales
+</a></li>
+<li class="header-logged-out-nav-item gl-display-none gl-md-display-inline-block">
+<a class="" href="/explore">Explore</a>
+</li>
+</ul>
+<ul class="gl-list-style-none gl-p-0 gl-m-0 gl-display-flex gl-gap-3 gl-align-items-center gl-justify-content-end">
+<li class="header-logged-out-nav-item">
+<a href="/users/sign_in?redirect_to_referer=yes">Sign in</a>
+</li>
+<li class="header-logged-out-nav-item">
+<a class="gl-button btn btn-md btn-confirm " href="/users/sign_up"><span class="gl-button-text">
+Get free trial
+
+</span>
+
+</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<div class="layout-page page-with-super-sidebar">
+<aside class="js-super-sidebar super-sidebar super-sidebar-loading" data-command-palette="{&quot;project_files_url&quot;:&quot;/dwt1/configuring-emacs/-/files/main?format=json&quot;,&quot;project_blob_url&quot;:&quot;/dwt1/configuring-emacs/-/blob/main&quot;}" data-force-desktop-expanded-sidebar="" data-root-path="/" data-sidebar="{&quot;is_logged_in&quot;:false,&quot;context_switcher_links&quot;:[{&quot;title&quot;:&quot;Explore&quot;,&quot;link&quot;:&quot;/explore&quot;,&quot;icon&quot;:&quot;compass&quot;}],&quot;current_menu_items&quot;:[{&quot;id&quot;:&quot;project_overview&quot;,&quot;title&quot;:&quot;Configuring Emacs&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:46508259,&quot;link&quot;:&quot;/dwt1/configuring-emacs&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-project&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;manage_menu&quot;,&quot;title&quot;:&quot;Manage&quot;,&quot;icon&quot;:&quot;users&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/activity&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;activity&quot;,&quot;title&quot;:&quot;Activity&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/activity&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-project-activity&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;members&quot;,&quot;title&quot;:&quot;Members&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/project_members&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;labels&quot;,&quot;title&quot;:&quot;Labels&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/labels&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;plan_menu&quot;,&quot;title&quot;:&quot;Plan&quot;,&quot;icon&quot;:&quot;planning&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/issues&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;project_issue_list&quot;,&quot;title&quot;:&quot;Issues&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/issues&quot;,&quot;pill_count&quot;:&quot;1&quot;,&quot;link_classes&quot;:&quot;shortcuts-issues has-sub-items&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;boards&quot;,&quot;title&quot;:&quot;Issue boards&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/boards&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-issue-boards&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;milestones&quot;,&quot;title&quot;:&quot;Milestones&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/milestones&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;project_wiki&quot;,&quot;title&quot;:&quot;Wiki&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/wikis/home&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-wiki&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;code_menu&quot;,&quot;title&quot;:&quot;Code&quot;,&quot;icon&quot;:&quot;code&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/merge_requests&quot;,&quot;is_active&quot;:true,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;project_merge_request_list&quot;,&quot;title&quot;:&quot;Merge requests&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/merge_requests&quot;,&quot;pill_count&quot;:&quot;0&quot;,&quot;link_classes&quot;:&quot;shortcuts-merge_requests&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;files&quot;,&quot;title&quot;:&quot;Repository&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/tree/main&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-tree&quot;,&quot;is_active&quot;:true},{&quot;id&quot;:&quot;branches&quot;,&quot;title&quot;:&quot;Branches&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/branches&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;commits&quot;,&quot;title&quot;:&quot;Commits&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/commits/main?ref_type=heads&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-commits&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;tags&quot;,&quot;title&quot;:&quot;Tags&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/tags&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;graphs&quot;,&quot;title&quot;:&quot;Repository graph&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/network/main?ref_type=heads&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-network&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;compare&quot;,&quot;title&quot;:&quot;Compare revisions&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/compare?from=main\u0026to=main&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;project_snippets&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/snippets&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-snippets&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;build_menu&quot;,&quot;title&quot;:&quot;Build&quot;,&quot;icon&quot;:&quot;rocket&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/pipelines&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;pipelines&quot;,&quot;title&quot;:&quot;Pipelines&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/pipelines&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-pipelines&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;jobs&quot;,&quot;title&quot;:&quot;Jobs&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/jobs&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-builds&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;pipeline_schedules&quot;,&quot;title&quot;:&quot;Pipeline schedules&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/pipeline_schedules&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-builds&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;artifacts&quot;,&quot;title&quot;:&quot;Artifacts&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/artifacts&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-builds&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;deploy_menu&quot;,&quot;title&quot;:&quot;Deploy&quot;,&quot;icon&quot;:&quot;deployments&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/releases&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;releases&quot;,&quot;title&quot;:&quot;Releases&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/releases&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-deployments-releases&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;packages_registry&quot;,&quot;title&quot;:&quot;Package Registry&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/packages&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-container-registry&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;container_registry&quot;,&quot;title&quot;:&quot;Container Registry&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/container_registry&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;operations_menu&quot;,&quot;title&quot;:&quot;Operate&quot;,&quot;icon&quot;:&quot;cloud-pod&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/environments&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;environments&quot;,&quot;title&quot;:&quot;Environments&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/environments&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-environments&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;infrastructure_registry&quot;,&quot;title&quot;:&quot;Terraform modules&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/infrastructure_registry&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;monitor_menu&quot;,&quot;title&quot;:&quot;Monitor&quot;,&quot;icon&quot;:&quot;monitor&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/incidents&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;incidents&quot;,&quot;title&quot;:&quot;Incidents&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/incidents&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;service_desk&quot;,&quot;title&quot;:&quot;Service Desk&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/issues/service_desk&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;analyze_menu&quot;,&quot;title&quot;:&quot;Analyze&quot;,&quot;icon&quot;:&quot;chart&quot;,&quot;avatar&quot;:null,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/value_stream_analytics&quot;,&quot;is_active&quot;:false,&quot;pill_count&quot;:null,&quot;items&quot;:[{&quot;id&quot;:&quot;cycle_analytics&quot;,&quot;title&quot;:&quot;Value stream analytics&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/value_stream_analytics&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-project-cycle-analytics&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;contributors&quot;,&quot;title&quot;:&quot;Contributor analytics&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/graphs/main?ref_type=heads&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;ci_cd_analytics&quot;,&quot;title&quot;:&quot;CI/CD analytics&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/pipelines/charts&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;repository_analytics&quot;,&quot;title&quot;:&quot;Repository analytics&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/graphs/main/charts&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:&quot;shortcuts-repository-charts&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;model_experiments&quot;,&quot;title&quot;:&quot;Model experiments&quot;,&quot;icon&quot;:null,&quot;avatar&quot;:null,&quot;entity_id&quot;:null,&quot;link&quot;:&quot;/dwt1/configuring-emacs/-/ml/experiments&quot;,&quot;pill_count&quot;:null,&quot;link_classes&quot;:null,&quot;is_active&quot;:false}],&quot;separated&quot;:false}],&quot;current_context_header&quot;:&quot;Project&quot;,&quot;support_path&quot;:&quot;https://about.gitlab.com/get-help/&quot;,&quot;display_whats_new&quot;:true,&quot;whats_new_most_recent_release_items_count&quot;:5,&quot;whats_new_version_digest&quot;:&quot;3cf20e77ac28338f2ca7083d2a5b7759347c5dbfe0c5bae7c69e6610c1bacc41&quot;,&quot;show_version_check&quot;:null,&quot;gitlab_version&quot;:{&quot;major&quot;:16,&quot;minor&quot;:9,&quot;patch&quot;:0,&quot;suffix_s&quot;:&quot;&quot;},&quot;gitlab_version_check&quot;:null,&quot;search&quot;:{&quot;search_path&quot;:&quot;/search&quot;,&quot;issues_path&quot;:&quot;/dashboard/issues&quot;,&quot;mr_path&quot;:&quot;/dashboard/merge_requests&quot;,&quot;autocomplete_path&quot;:&quot;/search/autocomplete&quot;,&quot;search_context&quot;:{&quot;project&quot;:{&quot;id&quot;:46508259,&quot;name&quot;:&quot;Configuring Emacs&quot;},&quot;project_metadata&quot;:{&quot;mr_path&quot;:&quot;/dwt1/configuring-emacs/-/merge_requests&quot;,&quot;issues_path&quot;:&quot;/dwt1/configuring-emacs/-/issues&quot;},&quot;code_search&quot;:true,&quot;ref&quot;:&quot;main&quot;,&quot;scope&quot;:null,&quot;for_snippets&quot;:null}},&quot;panel_type&quot;:&quot;project&quot;,&quot;shortcut_links&quot;:[{&quot;title&quot;:&quot;Snippets&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-snippets&quot;},{&quot;title&quot;:&quot;Groups&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-groups&quot;},{&quot;title&quot;:&quot;Projects&quot;,&quot;href&quot;:&quot;/explore/projects&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-projects&quot;}]}"></aside>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="top-bar-fixed container-fluid" data-testid="top-bar">
+<div class="top-bar-container gl-display-flex gl-align-items-center gl-gap-2">
+<button class="gl-button btn btn-icon btn-md btn-default btn-default-tertiary js-super-sidebar-toggle-expand super-sidebar-toggle gl-ml-n3" aria-controls="super-sidebar" aria-expanded="false" aria-label="Primary navigation sidebar" type="button"><svg class="s16 gl-icon gl-button-icon " data-testid="sidebar-icon"><use href="/assets/icons-1563760c6022424ca5187159258484be0c106b044e5e5a1b4f0be7a10cd6c90f.svg#sidebar"></use></svg>
+
+</button>
+<nav aria-label="Breadcrumbs" class="breadcrumbs gl-breadcrumbs" data-testid="breadcrumb-links">
+<ul class="breadcrumb gl-breadcrumb-list js-breadcrumbs-list">
+<li class="gl-breadcrumb-item gl-display-inline-flex"><a href="/dwt1">Derek Taylor</a></li> <li class="gl-breadcrumb-item gl-display-inline-flex"><a class="gl-display-inline-flex!" href="/dwt1/configuring-emacs"><span class="js-breadcrumb-item-text">Configuring Emacs</span></a></li>
+
+<li class="gl-breadcrumb-item" data-testid="breadcrumb-current-link">
+<a href="/dwt1/configuring-emacs/-/blob/main/04-launchers-dashboard-languages/images/emacs-dash.png">Repository</a>
+</li>
+</ul>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Derek Taylor","item":"https://gitlab.com/dwt1"},{"@type":"ListItem","position":2,"name":"Configuring Emacs","item":"https://gitlab.com/dwt1/configuring-emacs"},{"@type":"ListItem","position":3,"name":"Repository","item":"https://gitlab.com/dwt1/configuring-emacs/-/blob/main/04-launchers-dashboard-languages/images/emacs-dash.png"}]}
+
+</script>
+</nav>
+
+
+
+</div>
+</div>
+
+</div>
+<div class="container-fluid container-limited project-highlight-puc">
+<main class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div id="js-global-alerts"></div>
+</div>
+
+
+
+
+<div class="js-signature-container" data-signatures-path="/dwt1/configuring-emacs/-/commits/7e65d03031255574c0821700045a511a591ca913/signatures?limit=1"></div>
+
+<div class="tree-holder gl-pt-4" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder gl-max-w-26">
+<div data-project-id="46508259" data-project-root-path="/dwt1/configuring-emacs" data-ref="main" data-ref-type="" id="js-tree-ref-switcher"></div>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/dwt1/configuring-emacs/-/tree/main">configuring-emacs
+</a></li>
+<li class="breadcrumb-item">
+<a href="/dwt1/configuring-emacs/-/tree/main/04-launchers-dashboard-languages">04-launchers-dashboard-languages</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dwt1/configuring-emacs/-/tree/main/04-launchers-dashboard-languages/images">images</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dwt1/configuring-emacs/-/blob/main/04-launchers-dashboard-languages/images/emacs-dash.png"><strong>emacs-dash.png</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-display-flex gl-flex-wrap gl-sm-flex-nowrap gl-align-items-baseline gl-gap-3">
+<a class="gl-button btn btn-md btn-default shortcuts-find-file" rel="nofollow" href="/dwt1/configuring-emacs/-/find_file/main"><span class="gl-button-text">
+Find file
+
+</span>
+
+</a>
+<a class="gl-button btn btn-md btn-default " href="/dwt1/configuring-emacs/-/commits/main/04-launchers-dashboard-languages/images/emacs-dash.png"><span class="gl-button-text">
+History
+</span>
+
+</a>
+<a class="gl-button btn btn-md btn-default js-data-file-blob-permalink-url" href="/dwt1/configuring-emacs/-/blob/18c1ede93a659151987931db5bd5c6460dcd989c/04-launchers-dashboard-languages/images/emacs-dash.png"><span class="gl-button-text">
+Permalink
+</span>
+
+</a>
+</div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-7e65d030">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/dwt1"><img alt="Derek Taylor&#39;s avatar" src="/uploads/-/system/user/avatar/2362928/avatar.png?width=40" class="avatar s40 gl-display-none gl-sm-display-inline-block" title="Derek Taylor"></a>
+</div>
+<div class="commit-detail flex-list gl-display-flex gl-justify-content-space-between gl-align-items-center gl-flex-grow-1 gl-min-w-0">
+<div class="commit-content" data-testid="commit-content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/dwt1/configuring-emacs/-/commit/7e65d03031255574c0821700045a511a591ca913">Adding video 04</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+7e65d030
+</span>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="2362928" href="/dwt1">Derek Taylor</a> authored <time class="js-timeago" title="Jul 6, 2023 10:13pm" datetime="2023-07-06T22:13:40Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Jul 06, 2023</time>
+</div>
+
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/dwt1/configuring-emacs/-/commit/7e65d03031255574c0821700045a511a591ca913/pipelines?ref=main"></div>
+<div class="commit-sha-group btn-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+7e65d030
+</div>
+<button class="gl-button btn btn-icon btn-md btn-default " title="Copy commit SHA" aria-label="Copy commit SHA" aria-live="polite" data-toggle="tooltip" data-placement="bottom" data-container="body" data-html="true" data-category="primary" data-size="medium" data-clipboard-text="7e65d03031255574c0821700045a511a591ca913" type="button"><svg class="s16 gl-icon gl-button-icon " data-testid="copy-to-clipboard-icon"><use href="/assets/icons-1563760c6022424ca5187159258484be0c106b044e5e5a1b4f0be7a10cd6c90f.svg#copy-to-clipboard"></use></svg>
+
+</button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+</div>
+<div class="blob-content-holder js-per-page" data-blame-per-page="1000" id="blob-content-holder">
+<div data-blob-path="04-launchers-dashboard-languages/images/emacs-dash.png" data-explain-code-available="false" data-new-workspace-path="/-/remote_development/workspaces/new" data-original-branch="main" data-project-path="dwt1/configuring-emacs" data-ref-type="" data-resource-id="gid://gitlab/Project/46508259" data-target-branch="main" data-user-id="" id="js-view-blob-app">
+<div class="gl-spinner-container" role="status"><span aria-label="Loading" class="gl-spinner gl-spinner-md gl-spinner-dark gl-vertical-align-text-bottom!"></span></div>
+</div>
+</div>
+
+</div>
+
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+  window.gl = window.gl || {};
+  window.gl.webIDEPath = '/-/ide/project/dwt1/configuring-emacs/edit/main/-/04-launchers-dashboard-languages/images/emacs-dash.png'
+
+
+//]]>
+</script>
+<div data-ambiguous="false" data-ref="main" id="js-ambiguous-ref-modal"></div>
+
+</main>
+</div>
+
+
+</div>
+</div>
+
+
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded');
+    img.dataset.testid = 'js-lazy-loaded-content';
+  });
+}
+
+//]]>
+</script>
+<script nonce="5gm7/u5DYJ39UiJyV3Iwdg==">
+//<![CDATA[
+gl = window.gl || {};
+gl.experiments = {};
+
+
+//]]>
+</script>
+
+</body>
+</html>
+
