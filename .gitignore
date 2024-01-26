@@ -44,4 +44,4 @@ flycheck_*.el
 # directory configuration
 .dir-locals.el
 #elpaca build files
-/elpaca/
+elpaca/
